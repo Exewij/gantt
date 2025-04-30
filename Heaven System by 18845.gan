@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Heaven Systems IT Service by 12345" company="Wells International College" webLink="https://wellsVincent220.github.io/projectwebsite/Demoproject-chart.html" view-date="2022-02-10" view-index="0" gantt-divider-location="656" resource-divider-location="451" version="3.3.3316" locale="en_ID">
+    <description><![CDATA[
+        We are going to analyse a case scenarios and complete tasks mentioned after scenario.
+ 
+I need to demonstrate the company develop ICT solution, and ability to identify the better solution, and determine client support and manage the team in development, also an awareness of cyber security in workplace. 
+
+Help Heaven System Company make better performance.
+
+    ]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="235" order="0"/>
+        <field id="tpd4" name="Begin date" width="57" order="1"/>
+        <field id="tpd5" name="End date" width="60" order="2"/>
+        <field id="tpd8" name="Coordinator" width="142" order="3"/>
+        <field id="tpd9" name="Predecessors" width="146" order="4"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="273" order="0"/>
+        <field id="1" name="Default role" width="172" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="b3f4cf8fc71e47769d899aabbe8fb995" name="Prepare team support and monitor" color="#8cb6ce" meeting="false" start="2022-02-15" duration="5" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[
+                in order to develop good security system, we need prepare very well.
+
+here is the first stage
+            ]]></notes>
+            <task id="7" uid="6354125f7cca44a9b44f2635d7f0ddcf" name="Communication plan for the project team" color="#8cb6ce" meeting="false" start="2022-02-15" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[
+                    setup communication center. every empoyee could be easy to access the broardcast and message using text by phone, or by email or by online company web site.
+                ]]></notes>
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="7df5c209d3b64f789cb61256e39b537d" name="Action plan to address team training needs" color="#8cb6ce" meeting="false" start="2022-02-16" duration="4" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                <task id="9" uid="8451c7c8f98a4cbd9dc00e386414ba4f" name="Tools and method for the training" color="#8cb6ce" meeting="false" start="2022-02-16" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="10" uid="f79c8582a8a94bb9ac41ff5523b3abab" name="Cost and budgeting" color="#8cb6ce" meeting="false" start="2022-02-17" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="11" uid="d5115a1aa4c14586b832ef40ba5edf13" name="Schedule" color="#8cb6ce" meeting="false" start="2022-02-16" duration="4" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true"/>
+                <task id="12" uid="bd53480aa6284f67a779492b39afff5c" name="Feedback collection plan" color="#8cb6ce" meeting="false" start="2022-02-18" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="13" uid="b72eba68c58e4353811833cdfd903761" name="Evaluation process after the training" color="#8cb6ce" meeting="false" start="2022-02-21" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="31" uid="5c6bfdf2105f447fb0593320b119a6d7" name="Review Client Support" meeting="false" start="2022-02-22" duration="6" complete="0" expand="true">
+            <task id="34" uid="fc57aeb03f244d849b1df665be0f30ee" name="Identify and cocument client needs" color="#8cb6ce" meeting="false" start="2022-02-22" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="37" uid="402be7fa108f4d2496e68e58fc3de74b" name="Gap between current organizational support and their needs" color="#8cb6ce" meeting="false" start="2022-02-23" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[
+                    more new technolgy could be added to protect the company interest
+                ]]></notes>
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="41" uid="11cc8349b70742cfb9b7e6760d06d02c" name="Client support plan and evaluation plan against company SLAs" meeting="false" start="2022-02-23" duration="5" complete="0" expand="true">
+                <task id="42" uid="8cd88905bbcf4619b6f4af918113a02c" name="Area of  the support" color="#8cb6ce" meeting="false" start="2022-02-24" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true"/>
+                <task id="43" uid="0533ab56943a48e69848b10ed50ad6df" name="Resource needs" color="#8cb6ce" meeting="false" start="2022-02-24" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" uid="b31984de0dfa48a0a7cd1544f3908fe7" name="Cost and bodgeting" color="#8cb6ce" meeting="false" start="2022-02-25" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                    <depend id="60" type="2" difference="0" hardness="Strong"/>
+                    <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    <depend id="62" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="45" uid="46a18041bf874a8c98946c680e781b12" name="Sechdule" color="#8cb6ce" meeting="false" start="2022-02-23" duration="5" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="59" uid="b7f5f50bc5004ea4ad1ee3feadb53feb" name="Develop a review process on the selected solution" meeting="false" start="2022-02-28" duration="1" complete="0" expand="true">
+                <task id="60" uid="f6617b17d5064ae7b89a2ff060da12b6" name="Tools and Method" color="#8cb6ce" meeting="false" start="2022-02-28" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true"/>
+                <task id="61" uid="922be6cb57924133b1cb324e190081df" name="Schedule" color="#8cb6ce" meeting="false" start="2022-02-28" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="62" uid="a7af01c25c5a46608958214193221918" name="Responsibility" color="#8cb6ce" meeting="false" start="2022-02-28" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="63" uid="a174c08d2ba149b194515058ea7486b0" name="Submit both report to your trainer for approval" meeting="false" start="2022-03-01" duration="2" complete="0" expand="true">
+            <task id="64" uid="8b16bb281a704b2f946a45e4320ec875" name="Get feedback from your trainer" color="#8cb6ce" meeting="false" start="2022-03-01" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="65" uid="da9243ddb9414867bfc7fb29af4dac9e" name="Amend the document if required" color="#8cb6ce" meeting="false" start="2022-03-02" duration="1" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true">
+                <depend id="66" type="2" difference="0" hardness="Strong"/>
+                <task id="86" uid="6773d0c8b590405580f90de1fd127d1a" name="Develop team goal and outcome" color="#8cb6ce" meeting="false" start="2022-03-02" duration="1" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[
+                        prepare blue print for the company future security system
+
+need design your project first before starting
+                    ]]></notes>
+                </task>
+            </task>
+        </task>
+        <task id="66" uid="83dbb512224e48fa948fbe876b799b88" name="Final Review and Finish" color="#8cb6ce" meeting="true" start="2022-03-03" duration="0" complete="0" thirdDate="2021-10-22" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Vincent Wijaya" function="Default:1" contacts="vinwjyy@wic.edu.au" phone="1234567890">
+            <rate name="standard" value="30"/>
+        </resource>
+        <resource id="1" name="Mark" function="1" contacts="staffa@gmail.com" phone="6666666666">
+            <rate name="standard" value="40"/>
+        </resource>
+        <resource id="2" name="Jacob" function="1" contacts="staffb@gmail.com" phone="3333333333">
+            <rate name="standard" value="40"/>
+        </resource>
+        <resource id="3" name="Carol" function="3" contacts="staffc@gmail.com" phone="5555555555">
+            <rate name="standard" value="25"/>
+        </resource>
+        <resource id="4" name="Darwin" function="2" contacts="staffd@gmail.com" phone="2222222222">
+            <rate name="standard" value="30"/>
+        </resource>
+        <resource id="5" name="David" function="4" contacts="staffe@gmail.com" phone="7777777777">
+            <rate name="standard" value="25"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="true" load="50.0"/>
+        <allocation task-id="44" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="60" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="3" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="4" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="5" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="5" function="4" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="software developer"/>
+        <role id="2" name="hardware support"/>
+        <role id="3" name="help desk"/>
+        <role id="4" name="sales for market"/>
+    </roles>
+</project>

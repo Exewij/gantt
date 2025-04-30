@@ -1,0 +1,164 @@
+/* General Link Styles */
+A:link {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+A:visited {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  background: none;
+}
+
+A:hover {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  background: #6d9ec6;
+  transform: scale(1.05);
+}
+
+/* Notes Section */
+.notes {
+  padding-left: 10px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.notes pre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 5px;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Attachment Links */
+.attachment {
+  padding-left: 10px;
+}
+
+.attachment a:link {
+  font-weight: normal;
+  font-size: 12px;
+  color: #6d9ec6;
+  background: white;
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+}
+
+.attachment a:hover {
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 12px;
+  color: #2a5d7b;
+  background: white;
+  transform: scale(1.1);
+}
+
+.attachment a:visited {
+  font-weight: normal;
+  font-size: 12px;
+  background: white;
+  color: gray;
+}
+
+/* Table Styles */
+TD {
+  font-size: 12px;
+  color: black;
+  font-style: normal;
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+  padding: 8px;
+}
+
+UL, LI {
+  font-size: 12px;
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+  line-height: 1.6;
+  list-style-type: circle;
+}
+
+/* Header Styles */
+H1, H3, H5 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #6d9ec6;
+  letter-spacing: 1px;
+}
+
+H1 {
+  font-size: 18pt;
+}
+
+H2 {
+  font-weight: bold;
+  font-size: 16pt;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+
+H3 {
+  font-weight: bold;
+  font-size: 14pt;
+  color: #6d9ec6;
+}
+
+H4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+
+H5 {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #6d9ec6;
+}
+
+H6 {
+  font-weight: bold;
+  font-size: 12pt;
+  color: #000000;
+}
+
+/* Project Name Styling */
+div.project_name {
+  font-size: 3.5em;
+  color: blue;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  padding-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Page Links Container */
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.page_links {
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+}
+
+.page_links:hover {
+  background: #4f86a8;
+}
